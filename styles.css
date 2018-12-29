@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #CC9A67;
+}
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin-top:  5%;
+  color: #FEF2BF;
+}
+
+#points-counter {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin-top:  5%;
+  color: #FEF2BF;
+}
+
+.win {
+  color: #798931;
+}
+
+.lose {
+  color: #D87150;
+}
+
+.container {
+  display: block;
+  width: 70%;
+  margin: auto;
+
+}
+
+/* oval holes for beaver that are hidden */
+.btn {
+  margin: 25px;
+  display: inline-block;
+  visibility: hidden;
+  height: 40px;
+  width: 80px;
+  border: 1px solid #3A1C00;
+  border-radius: 100%;
+  background-color: #3A1C00;
+  position: relative;
+}
+
+.visible-btn {
+  visibility: visible;
+}
+
+
+img {
+  width: 40%;
+  text-align: center;
+  left: 30%;
+  top: 30%;
+  position: absolute;
+  z-index: +1;
+}
